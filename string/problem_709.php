@@ -2,12 +2,11 @@
     # To Lower Case
     class Solution {
         function toLowerCase($s) {
-            echo strtolower($s);
+            $res = strtolower($s);
+            return $res;
         }
+        
     }
-    $solution = new Solution();
-    $solution->toLowerCase('Hello');
-    //$solution->toLowerCase('here');
-    //$solution->toLowerCase('LOVELY');
+    
 
 ?>
