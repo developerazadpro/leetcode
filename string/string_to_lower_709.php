@@ -1,5 +1,5 @@
 <?php
-    # To Lower Case
+    # To Lower Case O(1)
     class Solution {
         function toLowerCase($s) {
             $res = strtolower($s);

@@ -5,6 +5,7 @@
          * @param Integer $n
          * @return String[]
          */
+        // O(n)
         function fizzBuzz($n) {
             $res = [];
             for($i = 1; $i <= $n; $i++){
